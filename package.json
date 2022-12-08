@@ -1,0 +1,28 @@
+{
+  "name": "e2e-test-framework",
+  "version": "1.0.0",
+  "description": "End-to-end testing framework for web applications with parallel execution and rich reporting",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "e2e": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["e2e", "testing", "test-framework", "automation", "web-testing"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^9.5.0",
+    "chalk": "^4.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5",
+    "@types/node": "^18.11.18",
+    "ts-node": "^10.9.1"
+  }
+}
