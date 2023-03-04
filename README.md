@@ -138,3 +138,21 @@ src/
 ## License
 
 MIT
+
+---
+
+## 🇫🇷 Documentation en français
+
+### Description
+**e2e-test-framework** est un framework de tests end-to-end (E2E) léger écrit en TypeScript. Il fournit des outils pour automatiser et valider les interactions utilisateur dans des applications web, avec une syntaxe simple et expressive permettant de décrire des scénarios de test complets.
+
+### Installation
+```bash
+npm install
+npm run build
+```
+
+### Utilisation
+```bash
+npm test
+```
